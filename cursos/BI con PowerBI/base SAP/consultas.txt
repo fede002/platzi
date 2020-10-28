@@ -1,0 +1,42 @@
+/*
+tablas de materiales
+**/
+
+select * 
+from mara as a
+inner join makt as b on a.matnr = b.matnr 
+
+/*
+Ordenes de compra
+**/
+
+select 
+a.mandt
+,a.ebeln
+,a.ebelp
+,a.aedat
+,a.txz01
+,a.matnr
+,a.bukrs
+,a.werks
+,a.lgort
+,a.matkl
+,a.netpr
+,a.netwr
+,a.brtwr
+,b.lifnr
+,b.ekorg
+,b.ekgrp
+,b.bedat
+,c.name1
+,c.stcd1
+,c.fityp
+,c.ort01
+,c.ort02
+from ekpo as a
+inner join ekko as b
+	on a.ebeln = b.ebeln
+		and a.mandt =b.mandt
+left outer join lfa1 as c
+	on b.lifnr = c.lifnr
+where a.aedat >= '20180101' and a.aedat <= '20181231'

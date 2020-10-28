@@ -1,0 +1,7 @@
+Editor de graficos
+
+http://editor.highcharts.com/full.html
+
+Demos
+
+https://www.highcharts.com/demo

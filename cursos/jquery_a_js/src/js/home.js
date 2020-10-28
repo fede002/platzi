@@ -1,12 +1,15 @@
+// consola y definicion de constantes
 console.log('hola mundo!');
 const noCambia = "Leonidas";
-
+// def de variable a nivel de ambito
 let cambia = "@LeonidasEsteban"
 
+//declaración de funsion clasica
 function cambiarNombre(nuevoNombre) {
   cambia = nuevoNombre
 }
 
+//se crea una instancia de un objeto promesa 
 const getUserAll = new Promise(function(todoBien, todoMal) {
   // llamar a un api
   setTimeout(function() {
