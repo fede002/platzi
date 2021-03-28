@@ -1,0 +1,60 @@
+Mail mariale
+
+
+Descripción: Capacitación Gotechy
+Application Server: 10.14.0.20
+Instance Number: 00
+System ID: IS1
+SAPRouter String: /H/200.45.42.54/S/3299
+
+
+edbarrios
+federico2021
+
+
+
+TAW10_1 - ABAP Workbench Fundamentals - Autor: SAP AG (2005) / Material Number: 50077029 
+
+TAW10_2 - ABAP Workbench Fundamentals - Autor: SAP AG (2005) / Material Number: 50077029 
+
+TAW10_3 - ABAP Workbench Fundamentals - Autor: SAP AG (2005) / Material Number:50077029
+
+TAW12_1 - ABAP Workbench Concepts - Autor: SAP AG (2005) / Material Number 50077373
+
+TAW12_2 - ABAP Workbench Concepts - Autor: SAP AG (2005) / Material Number 50080660
+
+
+
+unidad 1
+
+	crear coneccion
+		id de sistema 
+		server de aplicacion
+			login 
+				mandante (diferentes ambientes dentro de un mismo servidor)
+				usuario
+				pass
+		transportes
+			cambio de ambientes entre mandantes por OT
+			transacción SE10 – Transport Organizer
+				2 clases 
+						workbench cambios de programas 
+						customazing	consfiguracion en datos tablas de sistema
+		transacciones
+			SE38 (Editor ABAP)
+SE37 (Biblioteca de Funciones)
+
+SE51 (Screen Painter)
+
+SE80 (Object Navigator)
+
+SE11 (Dictionary ABAP)
+
+SE10 (Transport Organizer)
+
+SE24 (Generador de Clases)
+		
+		
+		
+stop 	46013
+take 	43289

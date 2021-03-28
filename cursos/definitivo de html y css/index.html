@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de Css variables</title>
+</head>
+<style>
+    :root {
+        --blue: #94b3db;
+        --white: #ffffff8e;
+        --font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        --font-size: 20px
+    }
+
+
+    body {
+        background-color: var(--blue);
+        font-family: var(--font-family)
+    }
+
+    h2 {
+        border-bottom: 2px solid var(--blue);
+    }
+
+    p {
+        font-size: var(--font-size);
+    }
+
+    .container {
+        color: var(--blue);
+        background-color: var(--white);
+        padding: 15px;
+    }
+
+    button {
+        background-color: var(--white);
+        color: var(--blue);
+        border: 1px solid var(--blue);
+        padding: 5px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="caja">
+            <p>Esto es un parrafo</p>
+            <button>Click acá</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

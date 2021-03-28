@@ -1,0 +1,142 @@
+curso de buenas practicas para la escritura de codigo
+
+¿Cuál de esos es un beneficio de usar Test Driven Development?
+	el codigo resulta mas efeciente
+		se escribe unicamente el código necesario
+		
+Cuál es el principal problema derivado de la existencia de efectos colaterales?
+	dificultad de adaptar el codigo a nuevos requerimientos
+		resultados poco predecibles
+
+¿Qué nos enseña el Dependency Inversion Principle?
+	que las dependencias de un metodo deben ser recibidas por parametro
+		los modulos de alto nivel no deben depender de los de bajo
+	
+¿Qué nos enseña el Interface Segregation Principle?
+	a crear interfaces especificas
+	
+¿Qué nos enseña el Open Closed Principle?
+	que una clase debe poder adaptase a nuevos escenarios sin cambiar su codigo
+	
+¿Qué nos enseña el Single Responsibility Principle?
+	crearr objetos que sepan muy bien como hacer una cosa especifica
+
+¿Cómo se determina si un código está correctamente organizado?
+	las funciones estan ordenadas alfabeticamente
+		usa convenciones y estandares, los archivos contiene elementos organizados de forma logica
+	
+¿Qué propone el Test Driven Development?
+	un test por cada caso de uso por cada metodo
+		primero las pruebas y despues el software
+	
+¿Para qué sirve documentar nuestro código?
+	para facilitar la continuacion del desarrollo
+
+¿Qué hace a la prolijidad del código?
+	alineacion a la derecha de los finales de lineas
+		definir un estandar y respetarlo
+	
+¿Cuál de estos no es un problema del hardcoding?
+	peor rendimiento de la aplicacion
+¿Qué son los principios SOLID?
+	buenas practicas del diseño orientado a objeto
+¿Qué beneficios aporta usar los principios SOLID?
+	codigo mas reutilizable y testeable
+
+maaal ¿Cómo se logra código reutilizable?
+	mediante el uso de poo
+		evitando el copi paste, y no repetir codigo, usando funciones o procedimientos que reciben parametros
+
+¿Qué prueba el Unit Testing?
+	casos de uso 
+		un metodo, funcionalidad de codigo
+			unidades aisladas de software
+¿Para qué sirve un Pull Request?
+	resisar el codigo antes de integrarlo al repo
+¿En qué nos basamos para decir que un código es de alta calidad?
+	legibilidad, mantenibilidad y testeabilidad
+¿Cuáles de estos identificadores son mnemotécnicos, específicos y precisos?
+	enviarClaveSecreta
+
+¿En qué casos conviene utilizar el patrón Factory?
+	Varias instancias de un objeto a la vez
+		cuando es muy completa instanciar un objeto
+	
+¿Cómo puede evitarse el hardcoding?
+	constantes y archivos de configuracion
+¿Qué nos enseña el Liskov Substitution Principle?
+	como debe comportarse una clase q hereda de otra
+¿Para qué sirve el Testing Automatizado?
+	para mejorar las chances de atrapar errores  antes de que estos lleguen a produccion
+¿Cuántas instancias de un Singleton existen en una aplicación?
+	1
+¿Qué prueba el Integration Testing?
+	como una unidad de software resuelve un problema
+		el flujo del sistema por completo
+			como un usuario resuelve un problema  a traves de software que esta en desarrollo
+	
+¿En qué casos conviene utilizar el patrón Command?
+	una misma funcionalidad independientemente de modo en que se ejecute
+¿Qué ventaja tiene el testing automatizado respecto del testing manual?
+	es mas confiable
+¿Qué es un patrón de diseño?
+	un modelo de solucion a un problema comun
+	
+¿A quién beneficia contar con código bien escrito?
+	a los desarroladores
+	VAAAAA	a vos, tus campoñaeros y al cliente
+		a todos los involucrados en el proyecto
+	
+¿Cuál es la principal característica del código correctamente modularizado?
+	los bloques no utilizan otros bloques
+		muchos bloques pequeños
+	
+¿Qué tan complejo es escribir código de alta calidad?
+	nada complejo
+		medianamente complejo
+		
+	
+-------------------------------------------------------------
+
+
+	LEGIBILIDAD DEL  CODIGO
+		CARACTERISTICAS EXTERNAS
+			INTERNAS
+				LEGIBILIDAD
+					el esfuerszo que requiere para interpretar lo que hace
+						codigo prolijo, identando, escrito para humanos, usar un estandar de codificacion(respetalo con ayuda de algun linter)
+						indentidicadores, memotecnicos y especificos
+					
+				MANTENIBILIDAD
+					el esfuerzo para adaptar escalar la funcionalidad
+						modularidad, funciones simples y descriptivas, clases
+						codigo reutilizable, NO copiar y pegar
+						codigo organizado
+							convenciones de codigo para estructuras
+								public, src, public, vendor
+					hardcoding EVITAR, usar archivos de configuracion, nombrar en constantes
+					evitar efectos colaterales, EVITAR uso de variables globales
+						
+				TESTEABILIDAD					
+					el esfuerzo de probar el codigo
+					automatizacion de test
+						unit test:			Evaluamos el funcionamiento de los componentes individualmente. (validar cada unidad de software)
+						integration test:	Validar la interacción entre los componentes y el sistema completo. 
+						TDD				:	probar algo que no existe. escribe un test que falle, hacer que funcione, eliminar la redundancia
+											
+					
+		principios SOLID 
+			(Single resposabolity Principle) 	una clase debe tener una sola resposabilidad 
+			(Open/Closed Principle)				abierto para la extencion, cerrado para la modificacion - usando polimorfismo y abstraccion el uso de clases abstractas para unificar procesos / metodos
+			(Liskov Substitution Principle)		cada clase que hereda de otra puede usarse como su padre sin necesidad de conocer las diferencias entre ellas. Sino se debe evaluar si la relacion re herencia es tal
+			(Interface Segregation Principle)	los clientes de un programa sólo deberían conocer de éste los métodos que realmente usan. Si implemento un interfaca deberia haces uso especifico de todos sus metodos
+			(Dependency Inversion Principle)	módulos de alto nivel no deben depender de los de bajo nivel, ambos deben depender de abstracciones.
+		patrones de diseño
+			singleton : 	una instancia en todo el ciclo de ejecucion, log de errores, sesiones
+			factory :		ayuda a la creacion de la instacia de una clase compleja
+			command :		permite solicitar una operación a un objeto sin conocer realmente el contenido de esta operación, ni el receptor real de la misma. Interface comando ->metodo (execute)
+						
+		documentar
+				 Dejar por escrito cómo hemos hecho algunas funcionalidades, cómo podría ser mejorado el código y por sobretodo debemos dejar comentarios en el código que ayuden a las personas a ubicarse en qué parte de la aplicación están y qué hacen esas líneas de código.
+			
+			

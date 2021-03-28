@@ -1,0 +1,68 @@
+Curso de jQuery a JavaScript 2018
+
+
+https://platzi.com/clases/1316-jquery-js/12299-bienvenidos-al-curso5143/
+
+
+Vanilla JS es lo mismo que JavaScript:
+	vedadero
+En JavaScript ¿cómo podríamos agregar un elemento dentro de otro?
+	append
+¿Cómo podemos saber que una función en Javascript es explícitamente asíncrona?
+	empieza con la palabra reservada async
+¿Cómo podemos saber que una función en Javascript es explícitamente asíncrona?
+	default
+Usar Ajax o hacer peticiones a un servicio externo es una característica muy popular en un sitio web dinámico, ¿cómo podríamos hacerlas con Vanilla JS?
+	fetch
+Hay un método que combina la forma de hacer cualquier tipo de selector. ¿Cuál es?
+	querSelector
+Dentro de una función asíncrona ¿qué palabra reservada nos ayuda a esperar resultados de promesas?
+	Await
+Si una promesa se resuelve correctamente qué método es llamado:
+	then
+Un Array, arreglo o lista en Javascript tiene muchos métodos pero uno en especial nos permite buscar elemento dentro de esa lista, ¿cuál es?
+	find
+Dentro de un template literal, ¿cómo puedo identificar las partes que son variables?
+	${variable}
+Si una promesa falla, ¿qué método de la misma es llamado?
+	catch
+Si yo quiero hacer un selector de id. ¿Cuál de los siguientes métodos debe usarse en caso de querer implementar un selector de ID?
+	getElementById()
+Hay una variable global que expone jQuery y estará presente en todas sus funciones. ¿Cuál de estas es?
+	$
+¿Qué es jQuery?
+	es una libreria hecha en javascript
+Hay una función en Javascript que nos permite ejecutar una función luego de cierto tiempo, ¿cuál es?
+	setTimeout()
+¿Con qué método de localStorage puedo llamar a un ítem guardado?
+	getItem()
+jQuery es lo mismo que JavaScript:
+	falso
+En algunas ocasiones nuestro código puede fallar por alguna razón no prevista y en estas ocasiones podemos avisarle a nuestros usuarios que algo pasó. ¿Cuál declaración usarías para validar este tipo de situaciones?
+	try catch
+Podemos reasignar una variable declarada con const
+	falso
+¿Qué efecto tiene Promise.race?
+	llama al metodo the cuando todas las promesas de completar con exito
+querySelector nos traerá el primer elemento en el DOM que coincida con el selector proporcionado, qué método podría usar si quiero obtener todos los elementos que coincidan con el selector .playlist .item
+	getSelectorAll()
+En ocasiones queremos hacer una determinada acción dependiendo de un valor proporcionado pero no queremos usar if else, ¿qué otra alternativa tengo?
+	switch case
+¿Cómo se le llaman a los valores extras que reciben las funciones?
+	parametros
+¿Cómo se le llaman a los valores extras que reciben las funciones?
+	template literals
+¿Qué efecto tiene Promise.all?
+	llama al metodo then cuando todas las promesas se completan con exito
+Cómo identificamos a una función asíncrona?
+	empieza con la palabra reservada async
+Cómo identificamos a una función asíncrona?
+	$0
+Una Promesa recibe un parámetro que a su vez es una función y ella recibe otros 2 parámetros, ¿para qué sirven ellos?
+	son funciones q nos ayudan a terminar con exito o rechazar una promesa
+Podemos reasignar una variable declarada con let
+	verdadero
+¿Qué regresa una petición hecha con fetch?
+	una promesa
+
+

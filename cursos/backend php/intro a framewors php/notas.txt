@@ -1,0 +1,55 @@
+Curso de Introducción a Frameworks de PHP
+
+Esta carpeta contendrá nuestras clases, controladores y programación principal
+	app
+¿Cuál es la función de Vendor?
+	guarda los paquetes descagados que usamos en cada proyecto
+
+MAAAAL Archivo de configuración del proyecto:
+	config.php
+		composer.json
+
+MAAAAL  ¿Qué es un controlador?
+	es el codigo que responde ante una peticion con la respues deseada
+	
+
+MAAAAL ¿Qué ofrece Laravel?
+	ofrece la posibilidad de maquetar proyectos para luego daserrollarlos
+
+Carpeta que contiene todos los paquetes descargados que usamos en nuestro sistema:
+	vendor
+¿Qué es un helper?
+	es un ayudante para tareas especificas y repetitivas
+¿Quién se encarga de configurar la respuesta para el usuario?
+	Response.php
+¿Qué es Response?
+	significa respuesta, es una clase usada para programar la respuesta correcta
+
+MAAAAL ¿Cuál es el papel de la vista?
+	imprimir bloques html css y js
+	
+¿Quién maneja el acceso a nuestro sistema?
+	el archivo index.php
+¿Qué es Request?
+	signica solicitud, es lo que requerimos para procesar lo que el usuario nos pide
+¿Qué queremos decir con: "name": "italomoralesf/basic" en composer.json?
+	proveedor y nombre de paquete
+¿La siguiente configuración está correcta?
+	no
+¿Cuál es la función principal de la carpeta views?
+	organizar nuestras vista
+	
+MAAAAL ¿Quién se encarga de segmentar nuestra ruta?
+	response.php
+	
+¿Qué es Front Controller?
+	es un patron para centralizar las solicitudes del usuario en un solo punto de entrada
+Aquí vivirán nuestras vistas, archivos pequeños con lo mínimo posible para funcionar a nivel visual:
+	views
+¿Por qué necesito un framework?
+	principal para no reinventar la rueda y enfocarnos en la necesidad real
+¿Por qué necesito un framework?
+	para no reinventar la rueda
+Carpeta principal de todos nuestros archivos y carpetas públicas del sistema:
+	public
+
