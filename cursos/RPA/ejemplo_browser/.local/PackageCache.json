@@ -65,6 +65,7 @@
       "Assemblies": [
         "C:\\Users\\fede_\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
         "C:\\Users\\fede_\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\fede_\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
         "C:\\Users\\fede_\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
         "C:\\Users\\fede_\\.nuget\\packages\\uipath/21.4.23.2412\\lib/net45/UiPath.Interop.dll",
         "C:\\Users\\fede_\\.nuget\\packages\\uipath.ocr.activities/3.0.0\\lib/net461/UiPath.OCR.Activities.Design.dll",
@@ -503,6 +504,11 @@
           "Item2": "[4.5.4, )"
         }
       ]
+    },
+    "System.Threading.Tasks.Dataflow": {
+      "Id": "System.Threading.Tasks.Dataflow",
+      "Version": "5.0.0",
+      "Dependencies": []
     },
     "System.Threading.Tasks.Extensions": {
       "Id": "System.Threading.Tasks.Extensions",
@@ -1008,6 +1014,16 @@
         "C:\\Users\\fede_\\.nuget\\packages\\system.threading.channels\\4.7.1\\lib\\net461\\System.Threading.Channels.dll"
       ],
       "Path": "C:\\Users\\fede_\\.nuget\\packages\\system.threading.channels\\4.7.1"
+    },
+    {
+      "Package": {
+        "Id": "System.Threading.Tasks.Dataflow",
+        "Version": "5.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\fede_\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0\\lib\\net461\\System.Threading.Tasks.Dataflow.dll"
+      ],
+      "Path": "C:\\Users\\fede_\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0"
     },
     {
       "Package": {
