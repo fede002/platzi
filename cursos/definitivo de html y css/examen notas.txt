@@ -1,0 +1,76 @@
+¿Qué meta utilizamos para asegurar una buena experiencia en responsive?
+	meta name="viewport" content="width=device-width,initial-scale=1"
+¿Qué formato de imagen es ideal para utilizar con transparente?
+	png
+¿Cuál es el orden correcto de declaración en CSS?
+	importacia, especificidad y orden de la fuente
+¿Cuál de estos selectores es más importante para CSS?
+	!important
+
+maaaal ¿Qué significa REM?
+	font-size
+
+maaaaal ¿Por qué es importante utilizar siempre medidas relativas en fuentes?
+	de esta forma podemos mantener un tamaño consistente con el contenedor padre
+
+maaaaal ¿Cuál es el tamaño de fuente que viene por defecto en el navegador?
+	12px
+
+maaaaal ¿Cuál es la diferencia entre display block e inline?
+	inline: muestra los elementos en lineas independientes
+
+¿Cuál es la paleta de colores en una imagen JPG?
+	millones de colores
+¿Cuál es la principal diferencia de una pseudo clase?
+	define el estilo de un estado especiald de un elementos
+¿Cual de estas declaraciones tiene más peso en CSS?
+	#id
+
+maaaaal ¿Qué símbolo representa al combinador Adjacent Sibling (Hermano cercano)?
+	>
+
+maaaaal ¿Cuál es la principal diferencia de un pseudo elemento?
+	Define el estilo de un estado especila de un elemento
+
+¿Cuál es una de las principales diferencias de una página estática a una dinámica?
+	las paginas estaticas son solo informativas
+¿Qué formato de imagen utilizaremos para fotos?
+	jpg
+¿Cual es la diferencia entre posición absoluta y relativa?
+	positionrelative  podemos posicionar un elemento respecto al flujo normal de la pagina
+
+maaaaal ¿Cuál es la forma de pedirle al navegador que nos ayude en llenar la información que el usuario utiliza de forma frecuente en formularios?
+	utilizando el tipo de inpunt  automaticamente si tiene informacion relacionada a ese tipo
+
+maaaaal ¿Para qué utilizamos la regla de box-sizing: border-box; en nuestros estilos?
+	nos ayuda a sumar el border, padding y margin a las medicas que definimos del elemento
+
+¿Qué símbolo representa al combinador General Sibling (Hermano general)?
+	Ñ
+¿Cuales de estas es una medida absoluta?
+	px
+¿Cuál es el tamaño promedio de una imagen para su uso en la web?
+	70kb
+¿Cuál de estos no es un patrón de diseño responsive?
+	layout fluid
+
+maaaaal ¿Cuál es la posición que viene por defecto en todos los elementos de HTML?
+	relative
+
+¿A qué nos referimos cuando decimos que una imagen es categoría Lossy?
+	son imagenes que reducen la cantidad de colores
+¿Para qué utilizamos el atributo alt en las etiquetas img?
+	Nos ayuda para poder tener una descripcion de la imagen encaso de que por algo no se puede renderizar
+Si estoy creando un formulario y quiero preguntar por una fecha y hora exacta, cuál sería la mejor forma de hacerlo?
+	input type "datetime-local"
+¿Al estar utilizando Display Flex, cómo puedo alinear de forma vertical a los elementos hijos?
+	align-items="center"
+
+maaaaal ¿Cuál es la diferencia entre rem y em?
+	rem tomo como medica base el tamñaño de la fuente de su padre, y em tomo como medida base el tamaño de su fuente root
+
+maaaaal ¿Cuál es la etiqueta de HTML que se utiliza como contenedor del contenido principal?
+	body
+
+¿Cuál es la paleta de colores en una imagen PNG 8?
+	maximo 256

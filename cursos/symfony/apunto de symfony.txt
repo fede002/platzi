@@ -1,0 +1,4 @@
+cd ~
+composer create-project symfony/website-skeleton code
+
+php -S localhost:8000 -t public
