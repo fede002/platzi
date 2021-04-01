@@ -11,6 +11,10 @@ SAPRouter String: /H/200.45.42.54/S/3299
 edbarrios
 federico2021
 
+mandt
+809
+
+
 
 
 TAW10_1 - ABAP Workbench Fundamentals - Autor: SAP AG (2005) / Material Number: 50077029 
@@ -23,7 +27,10 @@ TAW12_1 - ABAP Workbench Concepts - Autor: SAP AG (2005) / Material Number 50077
 
 TAW12_2 - ABAP Workbench Concepts - Autor: SAP AG (2005) / Material Number 50080660
 
+Fede2099$
 
+dev 
+	Fede2020$
 
 unidad 1
 
@@ -42,19 +49,191 @@ unidad 1
 						customazing	consfiguracion en datos tablas de sistema
 		transacciones
 			SE38 (Editor ABAP)
-SE37 (Biblioteca de Funciones)
+			SE37 (Biblioteca de Funciones)
+			SE51 (Screen Painter)
+			SE80 (Object Navigator)
+			SE11 (Dictionary ABAP)
+			SE10 (Transport Organizer)
+			SE24 (Generador de Clases)
 
-SE51 (Screen Painter)
-
-SE80 (Object Navigator)
-
-SE11 (Dictionary ABAP)
-
-SE10 (Transport Organizer)
-
-SE24 (Generador de Clases)
+unidad 2	
+	
+	eventos
 		
+		INITIALIZATION: 			al ejecutarse el programa, antes de mostrar la pantalla de selección al usuario. inicializar valores en la pantalla de selección.
+		AT SELECTION-SCREEN: 		luego de que el usuario ingresa datos en la pantalla de selección, control de datos en campos de seleccion.
+		START-OF-SELECTION: 		comienza la ejecución de la lógica principal del programa.
+		END-OF-SELECTION: 			finaliza la lógica principal del programa. Nos permite realizar acciones adicionales antes de mostrar el resultado del programa en pantalla.
+		
+	tipo de datos
+				Tipos de datos completos
+
+					Fecha (tipo D): posee una longitud de 8 caracteres con el formato de fecha AAAAMMDD.
+					Hora (tipo T): contiene 6 dígitos con formato HHMMSS.
+					Entero (tipo I): representa números enteros sin decimales de hasta 4 bytes (desde -2.147.483.648 hasta 2.147.483.647).
+					Punto flotante (tipo F): representa números con decimales con un dígito entero y hasta 16 decimales (utilizado para representar decimales con extrema precisión). Por ejemplo: 9,51241E-01 representa al número 0,951241 (E-01 indica el corrimiento de la coma decimal 1 lugar hacia la izquierda, es decir, dividido por 10).
+					String (tipo S): El tipo String indica una cadena de texto cuya longitud puede ser variable.
+					Xstring (tipo X): El tipo Xstring indica una cadena de valores hexadecimales de longitud variable.
+			Tipos de datos incompletos
+
+					Carácter (tipo C): están formados por texto únicamente, cuya longitud puede variar entre 1 y 262.143 caracteres. Deberemos definir la longitud de la variable al momento de declararla.
+					Carácter Numérico (tipo N): están formados por dígitos que tienen propiedades numéricas (por ejemplo, pueden aplicárseles operaciones aritméticas), o bien pueden ser tratados como caracteres (por ejemplo, se pueden cortar o concatenar a otras cadenas de texto). Tendremos que definir su longitud inicial al momento de declarar la variable.
+					Secuencia hexadecimal (tipo X): consisten en valores hexadecimales. Cada posición representa un byte en formato hexadecimal. Deberemos definir su longitud al declarar la variable.
+					Número empaquetado (tipo P): almacenan números con valores enteros y decimales. Al declarar una variable de este tipo definiremos su longitud total, indicando además con cuántos decimales deberá contar.
+
+			objetos
+				caracteristicas de la POO abstraccion, polimorfismo,herencia
+
+
+
+
+
+
+		
+Buenas tardes
+
+Adri y doctores, corresponde el descuento?
+
+matnr		pat 				DESCUENTO 
+17230 		586 FIBROMIALGIA	70%
+
+
+
+Buenas tardes
+
+se asigno el descuento al material 17230 para la patologia indicada
+	
+4500545129
+		
+18 24.9
 		
 		
 stop 	46013
 take 	43289
+
+
+---------------------------------------------------------------------------
+3352 metforminas 100 impactan al 70 
+2381 guimeli	 100 impactan al 70
+
+
+
+
+
+
+
+
+perdientes de receta electronica
+actualizar la vista al momento de bsucra el dni
+
+
+limpiar lista de patologias cuando cambio de material 
+
+metfomina ver el descuento de 100% con lucas
+
+
+
+Hola Fede,
+
+ 
+
+Te paso las tablas que vinculan los grupos de determinaciones (prestaciones) con las determinaciones, entre paréntesis te puse el nombre de las tablas en SAP.
+
+ 
+
+TN2KUM01 – Grupo de determinaciones (Cabeceras de grupo para resultados acumulados).
+
+	TN2KUM01- 699 --- igual (filtro en centro sanatorial CSGA)
+
+TN2KUM02 – Asignación de determinaciones a grupo de determinaciones (Asignación de prestaciones a grupo de resultados acumulados).
+	TN2KUM02 --- 1.276 ---- igual (relacion prestaciones y determinaciones)
+
+NTPK – Dato maestro de Determinaciones (IS-H: datos cabecera posic.servicio). Acá está dentro del catálogo LB.
+	NTPK --- 1075 ----- menos 5 (filtro por centro sanatorial y catalogo LB)
+
+
+DUDA
+-------------------------------
+por lo que veo las determinaciones y prestaciones puede ser distintas por centro, hay alguna constrain  para evitar esto
+-------------------------------
+
+
+
+
+
+---------------------------------------------------------
+
+Buen dia.
+
+Mariela tengo inconvenientes en al ambiente de prueba de sap q nos brindo la academia del curso.
+Esto no me permite hacer las practicas q indican las unidades
+Primero quice enviar un mensaje por la plataforma ya que en la seccion "Metodologia de cursada" dice lo siguiente:
+
+	Mientras transcurras tus estudios podrás compartir con tu docente las consultas que necesites para afianzar los conceptos y profundizar tu aprendizaje. En estos casos podrás utilizar la sección de “Mensajería” que ofrece la plataforma, en la cual recibirás la respuesta de tu docente dentro de un plazo de 48 hs de recibida la consulta.
+
+Entre en la seccion, quise crear un nuevo mensaje y no me figura ningun destinatario.
+
+Tecnicamente el problema es el siguiente:
+	Al crear un nuevo programa tipo reporte en la transacción SE38 sale un "popup" con el mensaje: 
+		"No esta registrado como programador"
+		"Realice el registro en el portal de sap support portal"
+			Usuario: EDBARRIOS
+			Clave de Acceso:  [A COMPLETAR]
+			Instalacion: 0020250007
+Necesitaria el registro y la clave para poder continuar.
+
+
+4500545126
+
+
+
+
+
+http://result.qa.srv1.aws.grupobasa.com.ar
+
+
+
+SAPABAP1
+
+
+
+------------------------------------------------------------------------------
+-- la orden clinica impacta cuando se libera.
+------------------------------------------------------------------------------
+
+SXI_MONITOR
+
+
+Ish    PROD Y DEV
+
+fede2025$
+
+
+Fede2099$ 	DEV
+
+
+Fede2020$	120 DEV
+
+Curso Abap prueba 1 eventos
+
+ISH-DEV
+10.1.54.44
+00
+OSD
+--------------------------------------
+-- mañana
+--------------------------------------
+
+preguntar por estado de prestaciones
+circuito actual, 
+circuito de contingencia
+dni de pruebas
+planificar instalar glyms en el resto de los centros?
+-------------------------------------
+
+68877669
+Prueba Paciente Dos
+
+Yoel unanue mac len
+
+1534613668
