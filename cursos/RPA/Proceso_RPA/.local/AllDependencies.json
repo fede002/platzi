@@ -5104,15 +5104,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fede_\\.nuget\\packages\\": {}
+    "C:\\Users\\fede\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Preceso_RPA",
       "projectName": "Preceso_RPA",
-      "projectPath": "C:\\Desarrollo\\platzi\\cursos\\RPA\\proceso_RPA\\.local",
-      "packagesPath": "C:\\Users\\fede_\\.nuget\\packages\\",
-      "outputPath": "C:\\Desarrollo\\platzi\\cursos\\RPA\\proceso_RPA\\.local"
+      "projectPath": "C:\\Desarrollo\\platzi\\cursos\\RPA\\Proceso_RPA\\.local",
+      "packagesPath": "C:\\Users\\fede\\.nuget\\packages\\",
+      "outputPath": "C:\\Desarrollo\\platzi\\cursos\\RPA\\Proceso_RPA\\.local"
     },
     "frameworks": {
       "net461": {
@@ -5138,7 +5138,7 @@
             "version": "[20.10.9, 20.10.9]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\fede_\\AppData\\Local\\UiPath\\app-21.4.0-beta0158\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\fede\\AppData\\Local\\UiPath\\app-21.4.1\\runtime.json"
       }
     }
   }
